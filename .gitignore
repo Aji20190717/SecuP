@@ -4,3 +4,6 @@
 /Security/.settings/
 /Security/target/m2e-wtp/web-resources/META-INF/maven/com.power/bean/pom.properties
 /Security/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+/Security/src/main/webapp/WEB-INF/views/home.jsp
+/Security/src/main/webapp/WEB-INF/views/loginForm.jsp
+/Security/src/main/webapp/WEB-INF/views/registBean.jsp
