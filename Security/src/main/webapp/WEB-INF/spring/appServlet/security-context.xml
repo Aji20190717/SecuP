@@ -16,6 +16,7 @@
         	
         	<!-- 로그인/회원가입 관련 url -->
 			<intercept-url pattern="/logininfo.do" access="permitAll" />
+			<intercept-url pattern="/logininfo.do" access="permitAll" />
 			
 			<!-- 그외 -->
 <!-- 

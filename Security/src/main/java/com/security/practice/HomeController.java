@@ -36,20 +36,14 @@ public class HomeController {
 		session.invalidate();
 		session = request.getSession(true);
 
-		if (session.isNew()) {
-			System.out.println("¼¼¼Ç¸¸·á");
-		} else {
-			System.out.println("¼¼¼Ç »ì¾ÆÀÖÀ½");
-		}
-
-		return "mainpage";
+		return "loginMain";
 
 	}
 
 	@RequestMapping("/error.do")
 	public String accessDeniedPage(Model model) throws Exception {
 		
-		model.addAttribute("msg", "·Î±×ÀÎ ¿À·ùÀÔ´Ï´Ù.");
+		model.addAttribute("msg", "ë¡œê·¸ì¸ ì˜¤ë¥˜ì…ë‹ˆë‹¤.");
 		return "login_withdrawal";
 	}
 
@@ -67,7 +61,7 @@ public class HomeController {
 			session.setAttribute("dto", dto);
 			return "loginMain";
 		} else {
-			String msg = "È¸¿øÀÌ ¾Æ´Õ´Ï´Ù.";
+			String msg = "ì •ë³´ë¥¼ ê°€ì ¸ì˜¤ì§€ ëª»í–ˆìŠµë‹ˆë‹¤.";
 			model.addAttribute("msg", msg);
 			return "login_withdrawal";
 		}

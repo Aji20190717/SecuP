@@ -11,15 +11,15 @@ public class Dao {
 		
 		if(id.equals("user")) {
 			dto.setId(id);
-			dto.setAddr("¼­¿ï½Ã °­³²±¸");
+			dto.setAddr("ì„œìš¸ì‹œ ê°•ë‚¨êµ¬");
 			dto.setEmail("user@kh.com");
-			dto.setName("À¯Àú");
+			dto.setName("ìœ ì €");
 			dto.setPhone("010-0000-0000");
 		} else if (id.equals("admin")) {
 			dto.setId(id);
-			dto.setAddr("KHÁ¤º¸±³À°¿ø");
+			dto.setAddr("KHì •ë³´êµìœ¡ì›");
 			dto.setEmail("admin@kh.com");
-			dto.setName("°ü¸®ÀÚ");
+			dto.setName("ê´€ë¦¬ì");
 			dto.setPhone("010-9999-9999");
 		}
 		
